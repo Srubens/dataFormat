@@ -1,0 +1,22 @@
+{
+  "name": "data-e-hora-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -p 8080 -c-1 ./src",
+    "tailwind": "tailwind -i ./src/style.css -o ./src/dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flag-icons": "^6.6.6",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
